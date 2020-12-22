@@ -7,7 +7,7 @@ pipline{
           steps{
           
                      sh'''
-        cd mynewwebapp
+ 
         cd MywebApp
         mvn clean install
   ...
