@@ -6,8 +6,8 @@ pipline{
         stage('Compile Stage'){
           steps{
           
-                  sh'''
-        cd MywebApp-master
+                     sh'''
+        cd mynewwebapp
         cd MywebApp
         mvn clean install
   ...
