@@ -1,0 +1,19 @@
+pipline{
+      agent any
+      
+      stages{
+        
+        stage('Compile Stage'){
+          steps{
+          
+                  sh'''
+        cd MywebApp-master
+        cd MywebApp
+        mvn clean install
+  ...
+              }
+           }
+        }
+ }
+         
+    
