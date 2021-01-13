@@ -11,6 +11,7 @@
 	<groupId>com.wipro</groupId>
 	<artifactId>MywebApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>MywebApp</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -34,6 +35,11 @@
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-jasper</artifactId>
     <version>9.0.41</version>
+</dependency>
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-tomcat</artifactId>
+<scope>provided</scope>
 </dependency>
 		
 	</dependencies>
